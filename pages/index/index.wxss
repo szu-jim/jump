@@ -1,0 +1,36 @@
+/**index.wxss**/
+.game-over{
+  background:rgba(238, 228, 218, 0.5);
+  text-align: center;
+  width: 600rpx;
+  height: 400rpx;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -200rpx 0 0 -300rpx;
+}
+
+.over-msg{
+  display:block;
+  font-size:30px;
+  font-weight:bold;
+  height:30px;
+  line-height:30px;
+  margin-top:59px;
+  color: #8f7a66
+}
+
+.lower{
+  margin-top:80rpx
+}
+
+.retry-button{
+  display:inline-block;
+  background:#8f7a66;
+  border-radius:3px;
+  padding:0 20px;
+  text-decoration:none;
+  color:#f9f6f2;
+  height:40px;
+  line-height:40px;
+}

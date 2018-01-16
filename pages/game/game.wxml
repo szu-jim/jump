@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<canvas style="width: 100%; height: 550px;" canvas-id="Canvas" bindtouchstart="touchStart" bindtouchend="touchEnd"></canvas>
+
+<!--游戏结束显示  -->
+<view class="game-over" wx:if="{{gameover}}">
+  <text class="over-msg">{{overMsg}}</text>
+  <view class="lower">
+    <navigator open-type="reLaunch" url='../index/index' class="retry-button">
+      <text>再玩一次</text>
+    </navigator>
+  </view>
+</view>
